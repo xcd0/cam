@@ -1,0 +1,312 @@
+{
+	"version": "0.0.0.0",
+	"length_unit": "mm",
+	"tool_origin": [
+		0,
+		0,
+		0
+	],
+	"coolant_type": "air",
+	"clearance_z": 0,
+	"data": [
+		null,
+		[
+			{
+				"coolant": 100,
+				"spin": 0,
+				"connection": [
+					{
+						"attribute": {
+							"calc_mode": "contour"
+						},
+						"points": [
+							{
+								"mode": 0,
+								"coord": [
+									0,
+									0,
+									0
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 0,
+								"coord": [
+									10,
+									10,
+									0
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									10,
+									10,
+									10
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							}
+						]
+					}
+				],
+				"approach": [
+					{
+						"attribute": {
+							"calc_mode": "contour"
+						},
+						"points": [
+							{
+								"mode": 1,
+								"coord": [
+									10,
+									10,
+									10
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									10,
+									10,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									20,
+									20,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							}
+						]
+					}
+				],
+				"cut": [
+					{
+						"attribute": {
+							"calc_mode": "contour"
+						},
+						"points": [
+							{
+								"mode": 1,
+								"coord": [
+									20,
+									20,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									30,
+									20,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									30,
+									30,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									20,
+									30,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									20,
+									20,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							}
+						]
+					}
+				],
+				"escape": [
+					{
+						"attribute": {
+							"calc_mode": "contour"
+						},
+						"points": [
+							{
+								"mode": 1,
+								"coord": [
+									20,
+									20,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									10,
+									10,
+									0.2
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 1,
+								"coord": [
+									10,
+									10,
+									20
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 0,
+								"coord": [
+									10,
+									10,
+									0
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							},
+							{
+								"mode": 0,
+								"coord": [
+									0,
+									0,
+									0
+								],
+								"axis": [
+									0,
+									0,
+									1
+								],
+								"feed": -1,
+								"extrude": -1,
+								"arc": null
+							}
+						]
+					}
+				]
+			}
+		]
+	]
+}
