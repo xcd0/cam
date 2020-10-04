@@ -1,7 +1,7 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;FLAVOR:Marlin
-;TIME:%!s(int=0)
+;TIME:0
 ;Filament used:0.200000m
 ;Layer height:0.000000
 ;MINX:0.000000

@@ -19,7 +19,7 @@ func (ps *PostSettingForMarlin) SetHeader(param HeaderParam) {
 	ps.Header = fmt.Sprintf(`
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;FLAVOR:Marlin
-;TIME:%s
+;TIME:%d
 ;Filament used:%fm
 ;Layer height:%f
 ;MINX:%f
