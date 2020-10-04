@@ -1,12 +1,25 @@
 package cl
 
 type Cl struct {
-	Version     string        `json:"version"`      // CLのバージョン
+	Version     string        `json:"version"`      // camのバージョン
 	LengthUnit  string        `json:"length_unit"`  // mm, inch
 	ToolOrigin  []float64     `json:"tool_origin"`  // 工具原点
 	CoolantType string        `json:"coolant_type"` // no, air, oil ?
 	ClearanceZ  float64       `json:"clearance_z"`  // クリアランスZ
-	Data        [][]ClSegment `json:"data"`         // CLデータ本体
+	Path        [][]ClSegment `json:"path"`         // CLデータ本体
+	Flavor      string        `json:"flavor"`       // marlin, funuc など
+	Info        ClInfo        `json:"info"`         // NC のヘッダにつける補足情報
+}
+
+type ClInfo struct {
+	Time        int     `json:"time"`
+	LayerHeight float64 `json:"leyer_height"`
+	MinX        float64 `json:"min_x"`
+	MinY        float64 `json:"min_y"`
+	MinZ        float64 `json:"min_z"`
+	MaxX        float64 `json:"max_x"`
+	MaxY        float64 `json:"max_y"`
+	MaxZ        float64 `json:"max_z"`
 }
 
 func NewCl(version string) *Cl {
@@ -15,7 +28,7 @@ func NewCl(version string) *Cl {
 	cl.LengthUnit = "mm"               // mm, inch
 	cl.ToolOrigin = []float64{0, 0, 0} // 工具原点
 	cl.CoolantType = "air"             // no, air, oil ?
-	cl.Data = make([][]ClSegment, 1)
+	cl.Flavor = "marlin"
 	return cl
 }
 

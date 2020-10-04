@@ -1,3 +1,8 @@
+package engine
+
+import (
+	. "github.com/xcd0/cam/cl"
+)
 
 func makeTestCl() *Cl {
 
@@ -6,12 +11,17 @@ func makeTestCl() *Cl {
 	c := NewCl("0.0.0.0")
 	a := ClAttribute{"contour"}
 
+	// 最初の点の情報にいろいろ詰める
+	initPoint := NewClPointG00(&c.ToolOrigin)
+	initPoint.HeadTemperature = 230
+	initPoint.BedTemperature = 80.0
+
 	zSeg1 := 0.2
 	seg1 := NewClSegment(
 		100,
 		0,
 		[]ClElement{ClElement{a, []ClPoint{
-			*NewClPointG00(&c.ToolOrigin),                       // move to origin G28
+			*initPoint,
 			*NewClPointG00(&[]float64{10, 10, c.ToolOrigin[2]}), // XY con
 			*NewClPointG01(&[]float64{10, 10, 10}),              // Z con
 		}}},
@@ -36,6 +46,6 @@ func makeTestCl() *Cl {
 		}}},
 	)
 
-	c.Data = append(c.Data, []ClSegment{*seg1})
+	c.Path = append(c.Path, []ClSegment{*seg1})
 	return c
 }

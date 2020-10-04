@@ -8,7 +8,8 @@
 	],
 	"coolant_type": "air",
 	"clearance_z": 0,
-	"path": [
+	"data": [
+		null,
 		[
 			{
 				"coolant": 100,
@@ -31,12 +32,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": -1,
 								"extrude": -1,
-								"head_temperature": 230,
-								"bead_temperature": 80
+								"arc": null
 							},
 							{
 								"mode": 0,
@@ -50,12 +48,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": -1,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -69,12 +64,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							}
 						]
 					}
@@ -97,12 +89,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -116,12 +105,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -135,12 +121,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							}
 						]
 					}
@@ -163,12 +146,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -182,12 +162,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -201,12 +178,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -220,12 +194,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -239,12 +210,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							}
 						]
 					}
@@ -267,12 +235,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -286,12 +251,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 1,
@@ -305,12 +267,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": 0,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 0,
@@ -324,12 +283,9 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": -1,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							},
 							{
 								"mode": 0,
@@ -343,28 +299,14 @@
 									0,
 									1
 								],
-								"arc": null,
 								"feed": -1,
-								"cutterCompensation": -1,
 								"extrude": -1,
-								"head_temperature": -1,
-								"bead_temperature": -1
+								"arc": null
 							}
 						]
 					}
 				]
 			}
 		]
-	],
-	"flavor": "marlin",
-	"info": {
-		"time": 0,
-		"leyer_height": 0,
-		"min_x": 0,
-		"min_y": 0,
-		"min_z": 0,
-		"max_x": 0,
-		"max_y": 0,
-		"max_z": 0
-	}
+	]
 }
