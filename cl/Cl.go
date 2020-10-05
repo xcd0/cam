@@ -24,10 +24,10 @@ type ClInfo struct {
 
 func NewCl(version string) *Cl {
 	cl := new(Cl)
-	cl.Version = version               // CLのバージョン
-	cl.LengthUnit = "mm"               // mm, inch
-	cl.ToolOrigin = []float64{0, 0, 0} // 工具原点
-	cl.CoolantType = "air"             // no, air, oil ?
+	cl.Version = version                 // CLのバージョン
+	cl.LengthUnit = "mm"                 // mm, inch
+	cl.ToolOrigin = []float64{0, 0, 100} // 工具原点
+	cl.CoolantType = "air"               // no, air, oil ?
 	cl.Flavor = "marlin"
 	return cl
 }

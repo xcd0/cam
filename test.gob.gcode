@@ -15,7 +15,7 @@
 
 ; Cam version  : 0.0.0.0
 ; Length unit  : mm
-; Tool origin  : [0 0 0]
+; Tool origin  : [0 0 100]
 ; Coolant type : air
 ; Clearance Z  : 0
 
@@ -48,7 +48,7 @@ G1 F1000 Z15                  ; After homing lift the nozzle 15mm before start p
 M104 S230                     ; Set head temperature
 M105                          ; Report temperature
 M140 S80                      ; Set bed temperature
-Z 0.000000
+Z 100.000000
 X 10.000000 Y 10.000000
 Z 10.000000
 
@@ -68,7 +68,7 @@ Y 20.000000
 
 X 10.000000 Y 10.000000
 Z 20.000000
-Z 0.000000
+Z 100.000000
 X 0.000000 Y 0.000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
